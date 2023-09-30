@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"Zonnepanelen" })
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <main class="page">
+        <article class="article">
+          <div class="article__container">
+            <div class="page__overlay"></div>
+
+            <h1 class="article__title">Contact Us</h1>
+
+            <h2>
+              De Kracht van Zonne-energie Ontgrendelen: Verken Gekke
+              Aanbiedingen en Kortingen op Zonnepanelen
+            </h2>
+            <p>
+              In een tijdperk waarin milieubewustzijn en duurzaamheid steeds
+              belangrijker worden, heeft het benutten van de kracht van de zon
+              via zonnepanelen zich gevestigd als een praktische en
+              milieuvriendelijke oplossing. Zonne-energie vermindert niet alleen
+              onze afhankelijkheid van fossiele brandstoffen, maar biedt ook
+              aanzienlijke langetermijnbesparingen op de elektriciteitsrekening.
+              Om deze groene overgang voor iedereen toegankelijker en
+              betaalbaarder te maken, speuren talloze bedrijven en websites
+              zoals de onze onvermoeibaar naar de gekste aanbiedingen en
+              kortingen op zonnepanelen. Laten we dus eens dieper ingaan op de
+              wereld van zonne-energie en ontdekken hoe je kunt profiteren van
+              deze geweldige deals.
+            </p>
+            <form action="thankyou.html" class="contact-form">
+              <div class="contact-form__item">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your name"
+                />
+              </div>
+              <div class="contact-form__item">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your email"
+                />
+              </div>
+              <div class="contact-form__item">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Your subject"
+                />
+              </div>
+              <div class="contact-form__item">
+                <label for="message">Message</label>
+
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Write your message"
+                  rows="5"
+                ></textarea>
+              </div>
+              <button class="contact-form__button" type="submit">
+                Send message
+              </button>
+            </form>
+          </div>
+        </article>
+        @@include('html/_footer.htm',{})
+      </main>
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>

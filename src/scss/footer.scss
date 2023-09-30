@@ -1,0 +1,50 @@
+//====================================================================================================
+.footer {
+  padding-top: toRem(34);
+  background-color: $gray;
+  padding-bottom: toRem(80);
+  // .footer__container
+  &__container {
+  }
+  // .footer__menu
+  &__menu {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    justify-content: center;
+    color: #fff;
+    line-height: 150%;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    @media (max-width: $mobileSmall) {
+      gap: 24px;
+      justify-content: flex-start;
+      li {
+        width: calc(50% - 12px);
+      }
+    }
+    a {
+      @media (any-hover: hover) {
+        &:hover {
+          color: #c7f1f1;
+        }
+      }
+    }
+  }
+  // .footer__socials
+  &__socials {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  // .footer__copy
+  &__copy {
+    text-align: center;
+    color: #fff;
+    font-size: toRem(16);
+  }
+}
+
+//====================================================================================================
