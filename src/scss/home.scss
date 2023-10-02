@@ -158,25 +158,25 @@
 
   @keyframes scaleButton {
     0% {
-      font-size: toRem(24);
+      transform: scale(1);
     }
     50% {
-      font-size: toRem(24.5);
+      transform: scale(1.02);
     }
     100% {
-      font-size: toRem(24);
+      transform: scale(1);
     }
   }
 
   @-webkit-keyframes scaleButton {
     0% {
-      font-size: toRem(24);
+      transform: scale(1);
     }
     50% {
-      font-size: toRem(24.5);
+      transform: scale(1.02);
     }
     100% {
-      font-size: toRem(24);
+      transform: scale(1);
     }
   }
 

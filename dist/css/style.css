@@ -470,29 +470,35 @@ h6 {
 
 @keyframes scaleButton {
   0% {
-    font-size: 1.5rem;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 
   50% {
-    font-size: 1.53125rem;
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
   }
 
   100% {
-    font-size: 1.5rem;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
 @-webkit-keyframes scaleButton {
   0% {
-    font-size: 1.5rem;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 
   50% {
-    font-size: 1.53125rem;
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
   }
 
   100% {
-    font-size: 1.5rem;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
