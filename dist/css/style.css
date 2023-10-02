@@ -440,6 +440,62 @@ h6 {
           animation: animateBorder 2s ease-in-out infinite;
 }
 
+@keyframes animateBorder {
+  0% {
+    border: 2px solid #377d22;
+  }
+
+  50% {
+    border: 2px solid transparent;
+  }
+
+  100% {
+    border: 2px solid #377d22;
+  }
+}
+
+@-webkit-keyframes animateBorder {
+  0% {
+    border: 2px solid #377d22;
+  }
+
+  50% {
+    border: 2px solid transparent;
+  }
+
+  100% {
+    border: 2px solid #377d22;
+  }
+}
+
+@keyframes scaleButton {
+  0% {
+    font-size: 1.5rem;
+  }
+
+  50% {
+    font-size: 1.53125rem;
+  }
+
+  100% {
+    font-size: 1.5rem;
+  }
+}
+
+@-webkit-keyframes scaleButton {
+  0% {
+    font-size: 1.5rem;
+  }
+
+  50% {
+    font-size: 1.53125rem;
+  }
+
+  100% {
+    font-size: 1.5rem;
+  }
+}
+
 .article .contact-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -512,62 +568,6 @@ h6 {
   position: relative;
   margin: 0 auto;
   margin-bottom: 2.25rem;
-}
-
-@-webkit-keyframes animateBorder {
-  0% {
-    border: 2px solid #377d22;
-  }
-
-  50% {
-    border: 2px solid transparent;
-  }
-
-  100% {
-    border: 2px solid #377d22;
-  }
-}
-
-@keyframes animateBorder {
-  0% {
-    border: 2px solid #377d22;
-  }
-
-  50% {
-    border: 2px solid transparent;
-  }
-
-  100% {
-    border: 2px solid #377d22;
-  }
-}
-
-@-webkit-keyframes scaleButton {
-  0% {
-    font-size: 1.5rem;
-  }
-
-  50% {
-    font-size: 1.53125rem;
-  }
-
-  100% {
-    font-size: 1.5rem;
-  }
-}
-
-@keyframes scaleButton {
-  0% {
-    font-size: 1.5rem;
-  }
-
-  50% {
-    font-size: 1.53125rem;
-  }
-
-  100% {
-    font-size: 1.5rem;
-  }
 }
 
 @media (max-width: 575px) {
